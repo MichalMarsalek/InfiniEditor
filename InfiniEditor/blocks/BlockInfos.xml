@@ -1,0 +1,2148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BlockInfos>
+  <Group Name="Custom puzzle tools">
+    <Block Type="24" Name="Immovable">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="7" Name="Input platform">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="40" Name="Input Platform, Invisible">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="30" Name="Invisible">
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="120" Name="Invisible, Conveyor">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="60" Name="Lower Bound">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="6" Name="Output Platform">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="320" Name="Output Platform, Invisible">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="343" Name="Output Platform, Oversized">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="-1" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="344" Name="Output Platform, Oversized, Corner">
+      <Flag>functional</Flag>
+      <Flag>corner</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X-Z</Symmetry>
+      <BoundingBox MinX="0" MinY="-1" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="33" Name="Starting Location">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Product blocks - Mechanical">
+    <Block Type="110" Name="Alien Drug, Container, Empty">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="113" Name="Alien Drug, Container, Full">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="109" Name="Alien Drug, Top">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="171" Name="Alien Terminal, Body">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="94" Name="Alien Terminal, Keyboard">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="95" Name="Alien Terminal, Screen">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="62" Name="Alien Terminal, Screen, Broken">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="61" Name="Ammo Container">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="210" Name="Bomb, Detonator">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="212" Name="Bomb, Explosive">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="211" Name="Bomb, Support">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="74" Name="Cannon, Back">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="75" Name="Cannon, Front">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="73" Name="Cannon, Pivot">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="80" Name="Claw, Hinge">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="82" Name="Claw, Milled Metal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="170" Name="Claw, Raw Metal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="86" Name="Connector">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="304" Name="Control Console, Body">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="305" Name="Control Console, Corner">
+      <Flag>corner</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="306" Name="Control Console, Lever">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="307" Name="Control Console, Screen">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="308" Name="Crew Quarters, Bed">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="-1" MaxX="2" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="309" Name="Crew Quarters, Desk">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X-Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="2" MaxY="0" MaxZ="2" />
+    </Block>
+    <Block Type="310" Name="Crew Quarters, Sink">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="2" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="177" Name="Drone, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="179" Name="Drone, Cannon">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="180" Name="Drone, Cannon, Damaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="190" Name="Drone, Cannon, Damaged, Tip">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="205" Name="Drone, Sensor">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="93" Name="Drone, Treads">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="230" Name="Extruded Metal, Hollow">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="229" Name="Extruded Metal, Solid">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="71" Name="Forklift, Milled Metal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="175" Name="Forklift, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="311" Name="Life Support, Body">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="312" Name="Life Support, Tank">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="313" Name="Life Support, Top">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="314" Name="Life Support, Valve">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="133" Name="Light, Blue">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="176" Name="Light, Connector">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="132" Name="Light, Orange">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="84" Name="Missile, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="85" Name="Missile, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="83" Name="Missile, Top">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="321" Name="Navigational Computer, Module">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="322" Name="Navigational Computer, Power">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="0" MaxY="1" MaxZ="1" />
+    </Block>
+    <Block Type="315" Name="Navigational Computer, Screen">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-9" MinY="0" MinZ="0" MaxX="0" MaxY="8" MaxZ="0" />
+    </Block>
+    <Block Type="317" Name="Plasma engine, Connector">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="-1" MaxX="0" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="341" Name="Plasma engine, Fuel Tank">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="340" Name="Plasma engine, Housing">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="334" Name="Plasma engine, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="1" MinY="1" MinZ="0" MaxX="-1" MaxY="-1" MaxZ="-8" />
+    </Block>
+    <Block Type="87" Name="Radar Module">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="122" Name="Radar Module, Damaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="302" Name="Resistance Shuttle, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="301" Name="Resistance Shuttle, Tank">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="300" Name="Resistance Shuttle, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="303" Name="Resistance Shuttle, Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="172" Name="Satellite, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="204" Name="Satellite, Body, 2">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="202" Name="Satellite, Cannon, Back">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="201" Name="Satellite, Cannon, Front">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="92" Name="Satellite, Solar Panel">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="203" Name="Satellite, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="335" Name="Ship Missile, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="337" Name="Ship Missile, Head 1">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="338" Name="Ship Missile, Head 2">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="336" Name="Ship Missile, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="173" Name="Shuttle, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="181" Name="Shuttle, Laser">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="89" Name="Shuttle, Thruster">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="90" Name="Shuttle, Thruster, Damaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="191" Name="Shuttle, Thruster, Damaged, Tip">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="91" Name="Shuttle, Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="235" Name="Shuttle, Window, Damaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="332" Name="Skip Drive, Angle, Bottom">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <Symmetry With="331">Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="333" Name="Skip Drive, Angle, Middle">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X-Z</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="331" Name="Skip Drive, Angle, Top">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <Symmetry With="332">Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="0" MaxY="2" MaxZ="0" />
+    </Block>
+    <Block Type="327" Name="Skip Drive, Center">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="329" Name="Skip Drive, Cross, Horizontal">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="330" Name="Skip Drive, Cross, Vertical">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="328" Name="Skip Drive, Straight">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="-1" MinZ="0" MaxX="0" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="298" Name="Space Buoy, Body">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="299" Name="Space Buoy, Light">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="50" Name="Test Zone, Blue">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="51" Name="Test Zone, None">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="49" Name="Test Zone, Red">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="96" Name="Training Block, Ancient, 1">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="97" Name="Training Block, Ancient, 2">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="98" Name="Training Block, Ancient, 3">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="79" Name="Training Block, Heist, Red">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="81" Name="Training Block, Heist, White">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="127" Name="Training Block, Mothership">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Product blocks - Organic">
+    <Block Type="65" Name="Critter">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="66" Name="Critter, Packaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="57" Name="Tree, Branch, Angled">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="56" Name="Tree, Branch, Straight">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="55" Name="Tree, Foliage">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="54" Name="Tree, Trunk">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="100" Name="Whale, Eye">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Decal Type="60" Name="Whale, Eye, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Decal>
+    <Block Type="101" Name="Whale, Eye, Packaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="102" Name="Whale, Meat">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="103" Name="Whale, Meat, Packaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="104" Name="Whale, Skin">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="105" Name="Whale, Skin, Packaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="106" Name="Whale, Spine">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="107" Name="Whale, Spine, Packaged">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Factory blocks - Player">
+    <Block Type="35" Name="Blocker">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="2" Name="Conduit">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="0" Name="Conveyor, Downward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry With="1">Y</Symmetry>
+    </Block>
+    <Block Type="1" Name="Conveyor, Standard">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry With="0">Y</Symmetry>
+    </Block>
+    <Block Type="16" Name="Counter, Downward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="15" Name="Counter, Forward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="17" Name="Eviscerator">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="0" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="9" Name="Laser">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="138" Name="Lifter">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="18" Name="Platform">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="4" Name="Pusher">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="25" Name="Rotator (CCW)">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry With="39">X</Symmetry>
+      <Symmetry With="39">Z</Symmetry>
+    </Block>
+    <Block Type="39" Name="Rotator (CW)">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry With="25">X</Symmetry>
+      <Symmetry With="25">Z</Symmetry>
+    </Block>
+    <Block Type="149" Name="Sensor, Downward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="5" Name="Sensor, Forward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="152" Name="Toggle">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="131" Name="Welder, Downward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="8" Name="Welder, Forward">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Factory blocks - Special">
+    <Block Type="45" Name="Cargo Container">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-7" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="46" Name="Cargo Container, Dummy">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-7" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="42" Name="Conveyor, Fixed">
+      <Flag>functional</Flag>
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="36" Name="Food Packager">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="-2" MaxX="2" MaxY="3" MaxZ="2" />
+    </Block>
+    <Block Type="117" Name="Milling Machine, Claw">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-2" MaxX="1" MaxY="2" MaxZ="2" />
+    </Block>
+    <Block Type="88" Name="Milling Machine, Claw">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-2" MaxX="1" MaxY="2" MaxZ="2" />
+    </Block>
+    <Block Type="48" Name="Milling Spike">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-4" MinY="0" MinZ="-4" MaxX="4" MaxY="13" MaxZ="4" />
+    </Block>
+    <Block Type="114" Name="Painter, Red">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Decal Type="7" Name="Painter, Red, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Decal>
+    <Block Type="99" Name="Painter, White">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Decal Type="8" Name="Painter, White, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Decal>
+    <Block Type="115" Name="Stamper, Control Panel">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Decal Type="1" Name="Stamper, Control Panel, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Decal>
+    <Block Type="23" Name="Stamper, Sensor">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Decal Type="20" Name="Stamper, Sensor, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Decal>
+    <Block Type="199" Name="Teleporter">
+      <Flag>light</Flag>
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Flag>sound</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="200" Name="Teleporter Pillar">
+      <Flag>light</Flag>
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="151" Name="Transceiver">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="32" Name="Tree Juicer">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Overlord Mothership">
+    <Block Type="157" Name="Border, Double-Sided">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="-1" MaxX="0" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="185" Name="Border, Simple">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="22" Name="Border, Single-Sided">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="-1" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="124" Name="Cell Bed">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="-1" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="125" Name="Cell Screen">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="1" />
+    </Block>
+    <Block Type="183" Name="Cell Utilities">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="0" />
+    </Block>
+    <Block Type="29" Name="Door">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Decal Type="46" Name="Light, Medium">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="49" Name="Light, Medium, Off">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="45" Name="Light, Small">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Block Type="41" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="158" Name="Wall, Exterior">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="21" Name="Wall, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="161" Name="Wall, Lower, Conveyor">
+      <Flag>functional</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="163" Name="Wall, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="236" Name="Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Proving grounds">
+    <Block Type="44" Name="Input Faceplate">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-2" MinZ="-2" MaxX="2" MaxY="1" MaxZ="1" />
+    </Block>
+    <Block Type="43" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="164" Name="Wall">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="27" Name="Wall, Conveyor">
+      <Flag>functional</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Skydock 19">
+    <Block Type="129" Name="Border, Corner">
+      <Flag>corner</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>XZ</Symmetry>
+    </Block>
+    <Block Type="130" Name="Border, Side">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="165" Name="Platform">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="58" Name="Support">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="136" Name="Support, Bottom">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry With="137">Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="137" Name="Support, Top">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry With="136">Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+  </Group>
+  <Group Name="Environment - Resource site 526.81">
+    <Block Type="153" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="166" Name="Wall">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Production zone 2">
+    <Decal Type="4" Name="Alien Text">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-5" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Block Type="143" Name="Catwalk, Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="141" Name="Catwalk, Straight">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="145" Name="Drain, Corner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="144" Name="Drain, Straight">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="20" Name="Input Faceplate">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="-3" MinZ="-2" MaxX="1" MaxY="2" MaxZ="2" />
+    </Block>
+    <Decal Type="3" Name="Light, Medium">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Block Type="142" Name="Wall, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="146" Name="Wall, Lower, Input Chute">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="150" Name="Wall, Lower, No Edge">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="167" Name="Wall, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="139" Name="Wall, Upper, Conveyor">
+      <Flag>functional</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="147" Name="Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Resource site 338.11">
+    <Block Type="26" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="168" Name="Wall">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="108" Name="Burrow">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="154" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="169" Name="Wall, Dirt">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="148" Name="Wall, Structure">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="162" Name="Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Resistance barrcks">
+    <Block Type="72" Name="Border, Barracks">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="0" MaxY="0" MaxZ="-1" />
+    </Block>
+    <Block Type="67" Name="Door">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="64" Name="Drain, Corner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="63" Name="Drain, Straight">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="69" Name="Support">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="78" Name="Track">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="76" Name="Wall, Barracks">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="77" Name="Wall, Hangar, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="68" Name="Wall, Hangar, Overhang">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="70" Name="Wall, Hangar, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="345" Name="Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Remote asteroid fields">
+    <Block Type="192" Name="Wall">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="194" Name="Worklight">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="0" />
+    </Block>
+  </Group>
+  <Group Name="Environment - Overlord bunker">
+    <Decal Type="64" Name="Alien Text, Large, 1">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <BoundingBox MinX="0" MinY="-2" MinZ="0" MaxX="0" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="65" Name="Alien Text, Large, 2">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="0" MinY="-2" MinZ="0" MaxX="0" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="66" Name="Alien Text, Large, 3">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="0" MinY="-2" MinZ="0" MaxX="0" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="67" Name="Alien Text, Small">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="0" MinY="-1" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Decal Type="68" Name="Alien Text, Small, Off-Center">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="0" MinY="-1" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Block Type="215" Name="Catwalk, Corner">
+      <Flag>corner</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>XZ</Symmetry>
+    </Block>
+    <Block Type="217" Name="Catwalk, Edge">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="216" Name="Catwalk, Inner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="218" Name="Catwalk, Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="209" Name="Chair">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="226" Name="Door, Large">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="227" Name="Door, Small">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="224" Name="Drain, Corner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="223" Name="Drain, Straight">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Decal Type="62" Name="Light, Cool">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="1" MaxY="1" MaxZ="0" />
+    </Decal>
+    <Decal Type="61" Name="Light, Warm">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Decal>
+    <Block Type="219" Name="Support, Base">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="220" Name="Support, Horizontal, 1">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="228" Name="Support, Horizontal, 2">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="221" Name="Support, Vertical">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="207" Name="Table, Corner">
+      <Flag>corner</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X-Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="2" MaxY="1" MaxZ="2" />
+    </Block>
+    <Block Type="208" Name="Table, Straight">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="2" MaxY="1" MaxZ="1" />
+    </Block>
+    <Block Type="193" Name="Teleporter, Alien">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="222" Name="Wall, Bunker, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="213" Name="Wall, Bunker, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="225" Name="Wall, Office, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="214" Name="Wall, Office, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Production zone 1">
+    <Decal Type="6" Name="Alien Text">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="0" MinY="1" MinZ="0" MaxX="0" MaxY="-2" MaxZ="0" />
+    </Decal>
+    <Block Type="233" Name="Floor">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="10" Name="Input Faceplate, 1×1">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="3" MaxY="3" MaxZ="1" />
+    </Block>
+    <Block Type="11" Name="Input Faceplate, 1×5">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="3" MaxY="7" MaxZ="1" />
+    </Block>
+    <Block Type="12" Name="Input Faceplate, 5×1">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="7" MaxY="3" MaxZ="1" />
+    </Block>
+    <Block Type="13" Name="Input Faceplate, 5×5">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-3" MaxX="7" MaxY="7" MaxZ="1" />
+    </Block>
+    <Block Type="234" Name="Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="232" Name="Wall, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="231" Name="Wall, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Environment - Atropos Station">
+    <Block Type="286" Name="Access Door, Hallway 1">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="287" Name="Access Door, Hallway 2">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="323" Name="Catwalk, Pillar, 1 Tall">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="292" Name="Catwalk, Pillar, 17 Tall">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="-16" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="254" Name="Catwalk, Pillar, 3 Tall">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="-2" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="255" Name="Catwalk, Platform, Facing 1">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="293" Name="Catwalk, Platform, Facing 2">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="279" Name="Catwalk, Stairs">
+      <Flag>stairs</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="280" Name="Ceiling Track">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="281" Name="Elevator">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="325" Name="Elevator Faceplate, Double">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="-1" MaxX="2" MaxY="4" MaxZ="0" />
+    </Block>
+    <Block Type="324" Name="Elevator Faceplate, Single">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="-1" MaxX="2" MaxY="4" MaxZ="0" />
+    </Block>
+    <Block Type="297" Name="Elevator Input">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="284" Name="Elevator Pad, Corner">
+      <Flag>corner</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>XZ</Symmetry>
+    </Block>
+    <Block Type="285" Name="Elevator Pad, Side">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="282" Name="Elevator Track, Facing 1">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="294" Name="Elevator Track, Facing 2">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="283" Name="Elevator Track, Wall">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="118" Name="Hangar Door">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="264" Name="Hangar Door, Border, Horizontal">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="265" Name="Hangar Door, Border, Vertical">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Decal Type="17" Name="Hangar Door, Field, Large">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-10" MinY="0" MinZ="0" MaxX="11" MaxY="0" MaxZ="10" />
+    </Decal>
+    <Decal Type="23" Name="Hangar Door, Field, Small">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-12" MinY="0" MinZ="0" MaxX="0" MaxY="0" MaxZ="10" />
+    </Decal>
+    <Block Type="119" Name="Hangar Door, Teeth">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Decal Type="9" Name="Light, Exterior">
+      <Flag>light</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Decal Type="10" Name="Light, Hallway">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="1" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Block Type="288" Name="Scaffold, Corner">
+      <Flag>corner</Flag>
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>XZ</Symmetry>
+    </Block>
+    <Block Type="289" Name="Scaffold, Edge">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="290" Name="Scaffold, Inner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="295" Name="Scaffold, Strut, Bottom">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry With="296">Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="296" Name="Scaffold, Strut, Top">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry With="295">Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="291" Name="Scaffold, Track">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="155" Name="Space Station">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>      
+      <BoundingBox MinX="-324" MinY="-324" MinZ="-297" MaxX="324" MaxY="324" MaxZ="-3" />
+    </Block>
+    <Decal Type="31" Name="Text, Bay A">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-2" MinZ="0" MaxX="1" MaxY="2" MaxZ="0" />
+    </Decal>
+    <Decal Type="32" Name="Text, Bay B">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-2" MinZ="0" MaxX="1" MaxY="2" MaxZ="0" />
+    </Decal>
+    <Decal Type="33" Name="Text, Bay C">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-2" MinZ="0" MaxX="1" MaxY="2" MaxZ="0" />
+    </Decal>
+    <Decal Type="34" Name="Text, Bay D">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-2" MinZ="0" MaxX="1" MaxY="2" MaxZ="0" />
+    </Decal>
+    <Decal Type="16" Name="Text, Caution">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>      
+    </Decal>
+    <Decal Type="15" Name="Text, Danger">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>      
+    </Decal>
+    <Decal Type="18" Name="Text, Docking Station 2">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-2" MinY="0" MinZ="-1" MaxX="5" MaxY="0" MaxZ="2" />
+    </Decal>
+    <Decal Type="14" Name="Text, Hangar 12">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="2" MaxY="0" MaxZ="2" />
+    </Decal>
+    <Decal Type="12" Name="Text, Hangar 5">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="2" MaxY="0" MaxZ="2" />
+    </Decal>
+    <Decal Type="13" Name="Text, Hangar 9">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-1" MaxX="2" MaxY="0" MaxZ="2" />
+    </Decal>
+    <Decal Type="22" Name="Text, Notice">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>      
+      <BoundingBox MinX="-1" MinY="-1" MinZ="0" MaxX="2" MaxY="0" MaxZ="0" />
+    </Decal>
+    <Block Type="156" Name="Wall, Exterior, Inner">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>XZ</Symmetry>
+    </Block>
+    <Block Type="159" Name="Wall, Exterior, Outer">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="277" Name="Wall, Interior, Lower">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="278" Name="Wall, Interior, Lower, Exposed">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="276" Name="Wall, Interior, Upper">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X-Z</Symmetry>
+    </Block>
+    <Block Type="346" Name="Window">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+  </Group>
+  <Group Name="Secret blocks">
+    <Block Type="135" Name="Projector Block Type">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="2" MaxY="4" MaxZ="0" />
+    </Block>
+    <Block Type="31" Name="Invisible Non-Raycast">
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="123" Name="Floating Cargo Container">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-7" MaxX="1" MaxY="3" MaxZ="0" />
+    </Block>
+    <Block Type="178" Name="Throne">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="198" Name="Sector Boundary">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="121" Name="Cell Screen for Cell">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="1" />
+    </Block>
+    <Block Type="134" Name="Invisible Screen">
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="19" Name="Food Pellet Dispenser">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+    </Block>
+    <Block Type="59" Name="Mothership Trapdoor">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="-3" MaxX="1" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="126" Name="Cell Utility For Cell">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="1" />
+    </Block>
+    <Block Type="128" Name="Mothership Table">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-4" MinY="0" MinZ="-1" MaxX="3" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="28" Name="Trigger Region">
+      <Flag>functional</Flag>
+      <Flag>invisible</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Block>
+    <Block Type="196" Name="Alien Guard">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="0" MinZ="0" MaxX="0" MaxY="2" MaxZ="0" />
+    </Block>
+    <Block Type="189" Name="Bureaucrat">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Flag>animated</Flag>      
+      <BoundingBox MinX="-1" MinY="0" MinZ="-2" MaxX="2" MaxY="2" MaxZ="0" />
+    </Block>
+    <Block Type="182" Name="Mothership Elevator Track">
+      <Flag>opaque</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Block>
+    <Block Type="38" Name="Mothership Leader Elevator">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Flag>animated</Flag>
+      <Symmetry>Z</Symmetry>  
+      <BoundingBox MinX="-1" MinY="0" MinZ="-2" MaxX="0" MaxY="3" MaxZ="1" />
+    </Block>
+    <Block Type="184" Name="Mothership Decider">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="-1" MinY="-1" MinZ="1" MaxX="1" MaxY="1" MaxZ="1" />
+    </Block>
+    <Block Type="37" Name="Mothership Banner">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-2" MinY="0" MinZ="0" MaxX="0" MaxY="11" MaxZ="0" />
+    </Block>
+    <Block Type="188" Name="Mothership Monitor">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <BoundingBox MinX="0" MinY="-3" MinZ="0" MaxX="0" MaxY="1" MaxZ="0" />
+    </Block>
+    <Block Type="197" Name="Mothership Stamper">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="-3" MinZ="0" MaxX="1" MaxY="1" MaxZ="4" />
+    </Block>
+    <Block Type="187" Name="Mothership Scanner">
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="-1" MinY="-3" MinZ="0" MaxX="1" MaxY="0" MaxZ="1" />
+    </Block>
+    <Block Type="160" Name="Sandbox Cargo Dial">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>oversize</Flag>
+      <Symmetry>Y</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="1" MaxX="0" MaxY="0" MaxZ="1" />
+    </Block>
+    <Decal Type="28" Name="Training Block, Ancient, 3, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Y</Symmetry>
+    </Decal>
+    <Decal Type="29" Name="Training Block, Ancient, 2, Decal">
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+    </Decal>
+    <Block Type="111" Name="Drug Container 1">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+    <Block Type="112" Name="Drug Container 2">
+      <Flag>functional</Flag>
+      <Flag>transparent</Flag>
+      <Flag>contained</Flag>
+      <Symmetry>X</Symmetry>
+      <Symmetry>Z</Symmetry>
+      <BoundingBox MinX="0" MinY="0" MinZ="0" MaxX="0" MaxY="0" MaxZ="0" />
+    </Block>
+  </Group>
+</BlockInfos>
